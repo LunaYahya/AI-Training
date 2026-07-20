@@ -1,0 +1,16 @@
+##Day 2 — Python for Data Science
+Learning Objectives
+● Use Python's core data types and control flow fluently.
+● Write clean, reusable functions with clear parameters.
+● Write list comprehensions and read basic object-oriented code
+#Hands on lab:
+##Task1:
+create a function that takes a list of numbers and return max,min and mean
+##Task2:
+filter even loop into a single list comrehension for cleaner code
+##Task3:
+create a simple python class that have two attribuits and one method
+##Tools used:
+Python3,VS code,Git&GitHub
+##Files
+day2_note1.ipynb: contains the complete implementaion and solutions
