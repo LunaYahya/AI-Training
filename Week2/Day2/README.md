@@ -20,7 +20,7 @@ Probability Distributions: Identifying characteristics of normal, binomial, and 
 - Jupyter Notebook
 - Git & GitHub
 ## Hands-On-Lab(Tasks)
--Step 1: Simulate 10,000 coin flips with NumPy and confirm the proportion of heads approaches 0.5.
+- Step 1: Simulate 10,000 coin flips with NumPy and confirm the proportion of heads approaches 0.5.
 - Step 2: Sample from a normal distribution with np.random.normal and plot its histogram to confirm the
 bell shape.
 - Step 3: Given a small worked scenario, compute a conditional probability by hand and verify it with a
