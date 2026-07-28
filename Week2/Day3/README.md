@@ -8,7 +8,7 @@ On this day, we learned to represent data samples as vectors and datasets as mat
 
 ## Key Concepts
 
-# Why Linear Algebra is Important for Machine Learning?
+## Why Linear Algebra is Important for Machine Learning?
 ML datasets are represented using matrices while the parameters of a model are represented using vectors/matrices. Most of the computations in machine learning use linear algebra.
 - Vector: It represents a single data sample and its features.
 - Matrix: It represents the whole dataset where rows represent the samples and columns represent the features.
@@ -20,11 +20,11 @@ ML datasets are represented using matrices while the parameters of a model are r
 - Jupyter Notebook
 - Git & GitHub
 ## Hands-On Lab (Tasks)
-● Step 1: Represent three data samples as a (3 × features) NumPy matrix.
-● Step 2: Compute the dot product of one sample vector with a weight vector by hand, then verify it with
+- Step 1: Represent three data samples as a (3 × features) NumPy matrix.
+- Step 2: Compute the dot product of one sample vector with a weight vector by hand, then verify it with
 np.dot.
-● Step 3: Use matrix multiplication (@) to produce a prediction for all three samples at once.
-● Step 4: Deliberately create a shape-mismatch error, read the message, and explain in Markdown why it
+- Step 3: Use matrix multiplication (@) to produce a prediction for all three samples at once.
+- Step 4: Deliberately create a shape-mismatch error, read the message, and explain in Markdown why it
 occurred and how to fix it.
 ## Main Learning Outcomes
 The outcome of completing this lab was gaining hands-on experience in representation of the machine learning data in the form of vectors and matrixes. It allowed me to understand the way the dot product is used for calculating the predictions and the way matrix multiplication is used for the efficient prediction of the multiple samples
