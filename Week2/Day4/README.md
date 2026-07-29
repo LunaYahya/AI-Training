@@ -22,6 +22,8 @@ IQR Method: A statistical technique used to detect potential outliers by identif
 - Matplotlib
 - Jupyter Notebook
 - Git & GitHub
+## Date set Used
+**Dataset Name:** (Student Performance Dataset) downloaded directly from Kaggle. This dataset contains various numerical and categorical features related to student demographics, study habits, and academic performance.
 ## Hands-On Lab (Tasks)
 - Step 1: Load a provided real dataset and produce a histogram for each numeric variable.
 - Step 2: Produce a box plot for the key numeric variables and identify any outliers visually.
