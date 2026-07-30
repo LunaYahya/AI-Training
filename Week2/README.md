@@ -1,4 +1,4 @@
-###  Week 2 – Mathematics & Exploratory Data Analysis (EDA)
+#  Week 2 – Mathematics & Exploratory Data Analysis (EDA)
 ## Overview
 In the second week, we studied the mathematics necessary for Machine Learning and explored those concepts using Exploratory Data Analysis (EDA). The topics that were discussed included descriptive statistics, probability, linear algebra, and methods of exploring data.
 ## Topics to be covered
