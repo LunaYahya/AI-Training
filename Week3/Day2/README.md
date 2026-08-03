@@ -1,4 +1,4 @@
-### Day 2 – Linear Regression
+# Day 2 – Linear Regression
 
 In Day 2, we were introduced to the basics of Linear Regression, which is one of the most common supervised learning models used for making predictions of continuous numerical values. We were introduced to training a linear regression model with scikit learn and predicting and interpreting the meaning of the coefficients and intercept of the linear model. We also got to know about the evaluation of regression models through the measures like MAE, RMSE, and R².
 
