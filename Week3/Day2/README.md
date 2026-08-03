@@ -16,9 +16,9 @@ predictions = model.predict(X_test)
 print(model.coef_) # one coefficient for each feature print(model.intercept_) # intercept or bias
 - Metrics for Regression: The performance of regression models can be determined by analyzing the gap between the actual and predicted values. The key metrics that we have learned were:
 
--- MAE (Mean Absolute Error): Calculates the average gap between the predicted and actual values. This is easier to interpret because it is measured in the units of the target variable.
--- RMSE (Root Mean Squared Error): Determines the prediction error with more weight on large errors.
--- R² (Coefficient of Determination): Determines the variance in the target variable that is accounted for by the model. The value of 1 denotes a perfect model.
+- MAE (Mean Absolute Error): Calculates the average gap between the predicted and actual values. This is easier to interpret because it is measured in the units of the target variable.
+-  RMSE (Root Mean Squared Error): Determines the prediction error with more weight on large errors.
+- R² (Coefficient of Determination): Determines the variance in the target variable that is accounted for by the model. The value of 1 denotes a perfect model.
 - Comparison Baseline: A comparison baseline is a straightforward approach to forecasting that is taken as a point of reference to assess the efficacy of the machine learning algorithm. In case of regression analysis, one common practice is to predict the average value for each instance. The model should outperform the baseline.
 ## Tools Used
 - Python
