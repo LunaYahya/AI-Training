@@ -20,6 +20,8 @@ print(model.coef_) # one coefficient for each feature print(model.intercept_) # 
 -  RMSE (Root Mean Squared Error): Determines the prediction error with more weight on large errors.
 - R² (Coefficient of Determination): Determines the variance in the target variable that is accounted for by the model. The value of 1 denotes a perfect model.
 - Comparison Baseline: A comparison baseline is a straightforward approach to forecasting that is taken as a point of reference to assess the efficacy of the machine learning algorithm. In case of regression analysis, one common practice is to predict the average value for each instance. The model should outperform the baseline.
+##  Dateset Used
+A given dataset was applied for performing the Tasks(student_performace_dataset.csv) to gain knowledge about the process of supervised learning. The dataset was divided into features (X) and target (y), and then split into training and testing datasets to get ready for the machine learning process.
 ## Tools Used
 - Python
 - Scikit-learn
