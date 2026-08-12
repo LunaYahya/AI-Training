@@ -29,6 +29,4 @@ The (student_performance_dataset.csv) dataset was used for feature engineering a
 - Math
 - Matplotlib
 ## Learning Outcomes
-Learning Outcomes
-
 In the end of the day, I was able to generate useful features using existing data and comprehend the role that feature engineering plays in enhancing the effectiveness of the model. I was able to distinguish between model parameters and hyperparameters and comprehend the importance of choosing hyperparameters before fitting the model because I was aware of the fact that hyperparameters have to be chosen before fitting the model. I learned about the process of using GridSearchCV along with cross validation for the selection of best hyperparameters rather than manually selecting hyperparameters. Moreover, I learned about the role of RandomizedSearchCV when there are numerous possibilities of hyperparameters.
