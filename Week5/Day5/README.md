@@ -34,7 +34,7 @@ The project will be considered complete when it includes:
 - [ ] Complete README and documentation
 - [x] `requirements.txt`
 - [ ] Final technical write-up
-- [ ] Complete GitHub branch/PR workflow
+- [ ] Complete GitHub branch workflow
 The checked items were already completed during previous work, while the remaining items will be completed during Phase 3.
 ---
 ## 5. Sprint 1 Goal
