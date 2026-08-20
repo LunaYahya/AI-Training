@@ -16,8 +16,9 @@ The four sprints are:
 The project was selected because it was already explored during the previous phase. The existing work will be improved, reorganized, and extended into a complete end-to-end project.
 ---
 ## 3. Problem Statement
-The goal is to use health, lifestyle, and demographic indicators to build a machine learning model that predicts the `HeartDiseaseorAttack` target.
-This is a machine learning prediction project and is not intended to provide medical diagnosis.
+Heart disease is an important health concern, and health-related data can contain patterns associated with heart disease or heart attack indicators.
+This project aims to analyze health, lifestyle, and demographic factors and develop a binary classification model to predict the `HeartDiseaseorAttack` target.
+The system is intended for machine learning prediction and analysis, not for medical diagnosis.
 ---
 ## 4. Definition of Done
 The project will be considered complete when it includes:
