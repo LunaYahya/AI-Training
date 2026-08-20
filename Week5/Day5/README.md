@@ -35,7 +35,7 @@ The project will be considered complete when it includes:
 - [x] `requirements.txt`
 - [ ] Final technical write-up
 - [ ] Complete GitHub branch workflow
-The checked items were already completed during previous work, while the remaining items will be completed during Phase 3.
+- The checked items were already completed during previous work, while the remaining items will be completed during Phase 3.
 ---
 ## 5. Sprint 1 Goal
  **Understand the dataset, complete the initial EDA, and establish a reproducible baseline classification model.**
