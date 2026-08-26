@@ -24,7 +24,7 @@
 - NumPy
 - Matplotlib
 - Scikit-learn
-- Jupyter Notebook / Colab
+- Jupyter Notebook 
 - Git / GitHub
 ## Learning Outcomes
 At the end of the day, I was able to build, train, and evaluate a neural network using Keras, interpret training and validation curves, and apply Dropout and Batch Normalization to reduce overfitting and improve training stability.
