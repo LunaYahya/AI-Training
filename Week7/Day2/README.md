@@ -23,12 +23,10 @@
 
 ## Hands-On Lab (Tasks)
 
-* Build and train a CNN from scratch on the melanoma skin cancer image dataset.
-* Evaluate the CNN using training and validation accuracy and loss.
-* Apply data augmentation and observe its effect on validation performance.
-* Use a pre-trained MobileNetV2 model with frozen layers for transfer learning.
-* Compare the CNN from scratch, augmented CNN, and transfer learning approaches.
-* Document the results and identify the best-performing approach.
+* Step 1: Build and train a small CNN from scratch on an image dataset and record its accuracy.
+* Step 2: Add data augmentation and compare the new validation curves to the previous run.
+* Step 3: Apply transfer learning with a frozen pre-trained model (e.g. MobileNetV2) and compare accuracy and training time.
+* Step 4: Document which approach performed best and why, in Markdown.
 
 ## Tools Used
 * TensorFlow
