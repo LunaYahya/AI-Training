@@ -57,7 +57,7 @@ Applied recurrent neural networks to sequential ECG data:
 
 The tuned LSTM achieved **92.29% test accuracy** and **92.57% weighted F1-score**, outperforming the Plain RNN baseline.
 
-### 💬 Sentiment Classification
+###  Sentiment Classification
 
 Applied Transformer-based NLP models to text classification:
 
