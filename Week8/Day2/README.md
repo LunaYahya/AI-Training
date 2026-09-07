@@ -2,47 +2,29 @@
 
 ## Learning Objectives
 
-Understand how cleaned text is converted into numerical representations.
-
-Apply Bag-of-Words and TF-IDF to the project data.
-
-Train a Logistic Regression classifier using TF-IDF features.
-
-Understand word embeddings and how they represent semantic relationships.
-
-Use pre-trained GloVe embeddings to explore semantic geometry.
-
-Understand contextual embeddings and their connection to DistilBERT.
-
-Compare TF-IDF with the previous LSTM and DistilBERT models.
-
-Select the most suitable text representation for the sentiment classification project.
+- Understand how cleaned text is converted into numerical representations.
+- Apply Bag-of-Words and TF-IDF to the project data.
+- Train a Logistic Regression classifier using TF-IDF features.
+- Understand word embeddings and how they represent semantic relationships.
+- Use pre-trained GloVe embeddings to explore semantic geometry.
+- Understand contextual embeddings and their connection to DistilBERT.
+- Compare TF-IDF with the previous LSTM and DistilBERT models.
+- Select the most suitable text representation for the sentiment classification project.
 
 ## Key Topics
 
-TF-IDF
-
-Bag-of-Words
-
-Sparse and Dense Representations
-
-Word Embeddings
-
-Word2Vec and GloVe
-
-Semantic Geometry
-
-Nearest Neighbors
-
-Contextual Embeddings
-
-DistilBERT
-
-Text Classification
-
-Model Evaluation
-
-TF-IDF vs. Embeddings
+- TF-IDF
+- Bag-of-Words
+- Sparse and Dense Representations
+- Word Embeddings
+- Word2Vec and GloVe
+- Semantic Geometry
+- Nearest Neighbors
+- Contextual Embeddings
+- DistilBERT
+- Text Classification
+- Model Evaluation
+- TF-IDF vs. Embeddings
 
 ## Hands-On Lab (Tasks)
 
