@@ -1,0 +1,43 @@
+{
+  "project": "Melanoma Skin Cancer \u2014 Benign vs Malignant",
+  "week": 9,
+  "day": 1,
+  "sprint": 4,
+  "goal": "Prepare the validated Week 8 CNN for deployment",
+  "artifacts": {
+    "model": "deployment_artifacts/melanoma_cnn.keras",
+    "metadata": "deployment_artifacts/model_metadata.json",
+    "requirements": "deployment_artifacts/requirements.txt"
+  },
+  "deployment_contract": {
+    "image_size": [
+      128,
+      128
+    ],
+    "channels": 3,
+    "color_format": "RGB",
+    "normalization": "pixel / 255.0",
+    "class_mapping": {
+      "Benign": 0,
+      "Malignant": 1
+    },
+    "selected_threshold": 0.35
+  },
+  "week8_selected_metrics": {
+    "accuracy": 0.8915,
+    "precision_malignant": 0.8746,
+    "recall_malignant": 0.914,
+    "f1_malignant": 0.8939,
+    "roc_auc": 0.9517,
+    "pr_auc": 0.9445,
+    "false_positives": 131,
+    "false_negatives": 86
+  },
+  "checks": {
+    "seed_fixed": true,
+    "preprocessing_documented": true,
+    "model_serialized": true,
+    "metadata_saved": true,
+    "requirements_saved": true
+  }
+}
