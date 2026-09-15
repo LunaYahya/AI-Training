@@ -1,0 +1,58 @@
+{
+  "project": "Melanoma Skin Cancer \u2014 Benign vs Malignant",
+  "sprint": "Sprint 4",
+  "day": "Day 1",
+  "model_format": "Keras .keras",
+  "model_artifact": "melanoma_cnn.keras",
+  "input": {
+    "height": 128,
+    "width": 128,
+    "channels": 3,
+    "color_format": "RGB"
+  },
+  "preprocessing": {
+    "reader": "OpenCV",
+    "color_conversion": "BGR to RGB",
+    "resize": [
+      128,
+      128
+    ],
+    "dtype": "float32",
+    "normalization": "pixel / 255.0"
+  },
+  "classes": {
+    "Benign": 0,
+    "Malignant": 1
+  },
+  "positive_class": "Malignant",
+  "decision_rule": {
+    "reference_threshold": 0.5,
+    "selected_threshold": 0.35,
+    "rule": "probability_malignant >= selected_threshold -> Malignant"
+  },
+  "week8_reference_metrics": {
+    "threshold": 0.5,
+    "accuracy": 0.8755,
+    "precision_malignant": 0.9243,
+    "recall_malignant": 0.818,
+    "f1_malignant": 0.8679,
+    "roc_auc": 0.9517,
+    "pr_auc": 0.9445,
+    "false_positives": 67,
+    "false_negatives": 182
+  },
+  "week8_selected_threshold_metrics": {
+    "threshold": 0.35,
+    "accuracy": 0.8915,
+    "precision_malignant": 0.8746,
+    "recall_malignant": 0.914,
+    "f1_malignant": 0.8939,
+    "roc_auc": 0.9517,
+    "pr_auc": 0.9445,
+    "false_positives": 131,
+    "false_negatives": 86
+  },
+  "reproducibility": {
+    "seed": 42
+  }
+}
