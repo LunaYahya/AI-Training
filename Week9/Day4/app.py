@@ -120,11 +120,11 @@ with left:
         st.info('Upload an image to activate the prediction panel.')
     else:
         preview = Image.open(io.BytesIO(uploaded.getvalue()))
-        st.image(preview, caption=f'Uploaded image · {uploaded.name}', width='stretch')
+        st.image(preview, caption=f'Uploaded image · {uploaded.name}')
 
 with right:
     st.markdown('### 2 · Review the result')
-    predict_clicked = st.button('Run prediction', type='primary', width='stretch')
+    predict_clicked = st.button('Run prediction', type='primary')
     if predict_clicked and uploaded is not None:
         with st.spinner('Analyzing the image…'):
             try:
