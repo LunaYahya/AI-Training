@@ -2,7 +2,6 @@ from pathlib import Path
 import json
 import io
 
-import cv2
 import numpy as np
 import streamlit as st
 from PIL import Image
@@ -60,14 +59,32 @@ def load_assets():
     return model, metadata, image_size, threshold, labels
 
 def preprocess_image(image_bytes, image_size):
-    buffer = np.frombuffer(image_bytes, dtype=np.uint8)
-    image = cv2.imdecode(buffer, cv2.IMREAD_COLOR)
-    if image is None:
-        raise ValueError('The uploaded file is not a readable image.')
-    image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
-    image = cv2.resize(image, image_size, interpolation=cv2.INTER_AREA)
-    image = image.astype(np.float32) / 255.0
-    return np.expand_dims(image, axis=0)
+    """
+    Decode and preprocess an uploaded image using Pillow.
+
+    Contract:
+    - RGB color format
+    - Resize to (width, height)
+    - float32 values
+    - normalize pixels by 255.0
+    """
+    try:
+        image = Image.open(io.BytesIO(image_bytes))
+        image = image.convert("RGB")
+        image = image.resize(image_size, Image.Resampling.LANCZOS)
+
+        image_array = np.asarray(
+            image,
+            dtype=np.float32
+        ) / 255.0
+
+        return np.expand_dims(image_array, axis=0)
+
+    except Exception as exc:
+        raise ValueError(
+            "The uploaded file is not a readable image."
+        ) from exc
+
 
 # ---------- Header ----------
 st.markdown("""<div class="hero"><div class="eyebrow">Interactive model demo · Week 9 Day 3</div><h1>Lesion Insight</h1><p>A focused, human-friendly interface for exploring the melanoma classification model.</p></div>""", unsafe_allow_html=True)
