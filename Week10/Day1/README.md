@@ -1,4 +1,4 @@
-# Week 10 — Day 1: Final Presentation Preparation
+# Week 10 Day 1: Final Presentation Preparation
 
 ## Overview
 
@@ -16,8 +16,8 @@ Day 1 focused on preparing the final presentation for the **Melanoma Skin Lesion
   * Explainability
   * Deployment
   * Limitations & Future Work
-* Prepared three demo cases for the deployed Streamlit application.
-* Recorded a fallback video for the live demo.
+  * Prepared three demo cases for the deployed Streamlit application.
+  * Recorded a fallback video for the live demo.
 
 ## Tools Used
 
