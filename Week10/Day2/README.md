@@ -407,18 +407,7 @@ The project demonstrates the complete workflow from raw image data to a deployed
 
 ---
 
-## Author
 
-**Luna Yahya**
-
-Computer Systems Engineering Graduate
-AI & Machine Learning
-
-### GitHub
-
-https://github.com/LunaYahya
-
----
 
 ## 🔗 Project Links
 
