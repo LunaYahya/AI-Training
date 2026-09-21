@@ -1,6 +1,6 @@
 #  Melanoma Skin Lesion Classification
 
-A deep learning application for classifying skin lesion images as **Benign** or **Malignant**.
+A Deep learning application for classifying skin lesion images as **Benign** or **Malignant**.
 
 This project covers an end-to-end machine learning workflow, including image preprocessing, deep learning, model evaluation, prediction, and deployment using Streamlit.
 
